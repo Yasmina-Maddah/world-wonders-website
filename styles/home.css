@@ -1,9 +1,9 @@
 #wonders-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 24px;
     justify-content: center;
-    padding: 2rem;
+    padding: 32px;
     margin-top: 20px;
 }
 
@@ -11,7 +11,7 @@
     background-color: #ef8b07;
     border: 1px solid #ef8b07;
     border-radius: 8px;
-    padding: 1rem;
+    padding: 16px;
     width: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -24,24 +24,24 @@
 }
 
 .wonder h2 {
-    font-size: 1.25rem;
+    font-size: 20px;
     color: #060505;
-    margin: 0.5rem 0;
+    margin: 8px 0;
 }
 
 .wonder p {
     color: #555;
-    margin: 0.5rem 0 1rem;
+    margin: 8px 0px 16px;
 }
 
 button {
     background-color: rgb(254, 240, 222); 
     color: #030303;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 15px;
     transition: background-color 0.3s ease;
 }
 
@@ -53,7 +53,7 @@ footer {
     background-color: rgb(254, 240, 222);
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 16px;
     position: relative;
     bottom: 0;
     width: 100%;

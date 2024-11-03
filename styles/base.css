@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "AirTraveler";
+    src: url(./../Assets/Fonts/AirtravelerspersonaluseBdit-gxgyE.otf);
+  }
+
+  header {
+    font-family: "AirTraveler";
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .navbar {
+    height: 92px;
+    width: 100%;
+    padding: 0 25px;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    padding: 3px;
+    height: 100%;
+    align-items: center;
+  }
+
+  .nav-title {
+    flex-grow: 1.1;
+    height: 55px;
+    margin-left: 20px;
+    align-items: center;
+    padding: 8px;
+  }

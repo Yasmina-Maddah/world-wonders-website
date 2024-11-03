@@ -27,13 +27,15 @@ img {
     object-fit: cover;
 }
 
-.img-bg{
-    align-items: center;
-    margin-top: 80px; 
+.img-bg {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 80px auto; 
     max-width: 70%;
-    height: 60%;
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    height: auto; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
   
 

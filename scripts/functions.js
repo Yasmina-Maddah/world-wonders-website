@@ -10,5 +10,5 @@ function displayWonders(wonders) {
   }
 
   function viewWonderDetails(id) {
-    window.location.href = `index.html?id=${id}`;
+    window.location.href = `details.html?id=${id}`;
   }
